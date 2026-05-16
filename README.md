@@ -115,17 +115,10 @@ This project connects to two earlier simulations in the same portfolio:
 - [CDU-Simulation-Optimization](https://github.com/...) — Arabian Light crude distillation, 35-stage column, pump-around optimization, 53.6% furnace duty reduction
 - [Natural-Gas-Sweetening](https://github.com/...) — DEA absorption-regeneration loop, >99.9% H₂S removal; the acid gas from that unit motivates the feed specification used here
 
-The next project covers methanol synthesis — moving from sulfur removal (this unit) to downstream syngas utilization.
-
+The next project covers hydrogen production from biogas via dry reforming and water-gas shift
 ---
 
-## Tools Used
 
-- Aspen Plus V14
-- Microsoft Word (report)
-- Draw.io (P&ID, in progress)
-
----
 
 ## Author
 
