@@ -3,6 +3,10 @@
 Steady-state simulation of a three-stage Claus sulfur recovery unit built in Aspen Plus V14. The model covers the full process train: reaction furnace, three catalytic converters, three interstage condensers, and three reheaters — from acid gas feed through to tail gas and liquid sulfur product.
 
 ---
+## Why this matters
+H₂S can't be vented. It can't be flared at scale without breaching SO₂ emission limits. And it comes out of every sour gas treating unit in volume — concentrated, continuous, unavoidable. The Claus process converts it into elemental sulfur that can be sold rather than disposed of. That's the industrial reason this process exists.
+This simulation runs a three-stage unit on a CO₂-heavy feed: 53.16 mol% CO₂, 36.04 mol% H₂S. That composition makes it harder than the textbook case — furnace temperature control tightens, COS side-reactions become real, and maintaining the 2:1 H₂S:SO₂ ratio at the furnace outlet requires careful air management. The simulation reaches 98.70% recovery and 6,023 kg/hr liquid sulfur — the thermodynamic ceiling for this feed and configuration, not a guaranteed operating result.
+The converter temperature profile shows how Claus recovery actually compounds. CR1 rises 47.5°C. CR3 rises 4.3°C. That 4.3°C represents the difference between 97.1% and 98.7% recovery — about 111 kg/hr of additional sulfur, 2.7 t/day. Each stage does less than the last. Three stages is the practical limit before tail gas treatment has to take over.
 
 ## Background
 
