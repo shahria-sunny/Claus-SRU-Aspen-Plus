@@ -112,15 +112,24 @@ COS and CS₂ from the furnace are both essentially eliminated in the first cata
 
 ---
 
-## Part of a Simulation Portfolio
+## Part of a portfolio
 
-This project connects to two earlier simulations in the same portfolio:
+This is the third project in a four-part simulation arc.
 
-- [CDU-Simulation-Optimization](https://github.com/...) — Arabian Light crude distillation, 35-stage column, pump-around optimization, 53.6% furnace duty reduction
-- [Natural-Gas-Sweetening](https://github.com/...) — DEA absorption-regeneration loop, >99.9% H₂S removal; the acid gas from that unit motivates the feed specification used here
+The acid gas feed to this unit — 36.04 mol% H₂S, 53.16 mol% CO₂ — comes 
+directly from the kind of amine regenerator modeled in the previous project. 
+The NGS simulation produces exactly this stream as its regenerator overhead. 
+This unit converts that H₂S into 6,023 kg/hr of liquid sulfur rather than 
+releasing it as SO₂.
 
-The next project covers hydrogen production from biogas via dry reforming and water-gas shift
----
+Sulfur recovery closes the treating loop. But the broader question — what 
+to do with carbon in a world moving away from fossil fuels — runs through 
+the whole portfolio. The final project shifts from managing carbon to 
+converting it: hydrogen production from biogas via dry reforming, where 
+CO₂ becomes a reactant rather than a waste stream.
+
+← Previous: [Natural Gas Sweetening — DEA Absorption](https://github.com/shahria-sunny/Natural-Gas-Sweetening)  
+→ Next: [Hydrogen Production from Biogas](https://github.com/shahria-sunny/Hydrogen-Production-from-Biogas-via-Dry-Reforming-and-Water-Gas-Shift)
 
 
 
