@@ -111,6 +111,11 @@ Condensers C2 and C3 return vapor-only results in the simulation. This is a know
 COS and CS₂ from the furnace are both essentially eliminated in the first catalytic bed (98.9% COS reduction across CR1). For feeds with CO₂ content this high, TiO₂ catalyst is preferred over alumina in the first bed due to its higher hydrolysis activity — this was not explicitly modeled but the equilibrium results are consistent with what TiO₂ achieves in practice.
 
 ---
+## HAZOP Analysis
+A process HAZOP was conducted on this unit using the simulation data as the engineering basis. Working from the PFD and Aspen stream outputs rather than a formal P&ID, the study covers five nodes — reaction furnace, first condenser, CR1 stage, CR2/CR3 stages, and the tail gas system — with 49 deviations analyzed across flow, temperature, pressure, and composition parameters.
+Seven deviations came out High risk (L×S ≥ 9): sulfur solidification in condenser drain lines, liquid sulfur carryover into CR1, catalyst deactivation in the reheater/converter stages, and H₂S:SO₂ ratio loss. The ratio deviation (3.8) is the single most consequential — it propagates through all three catalytic stages and directly sets tail gas composition.
+The study includes a risk matrix, guide word applicability log, node boundary definitions, and a 30-action register prioritized by criticality.
+[HAZOP Analysis](https://github.com/shahria-sunny/Claus-SRU-Aspen-Plus/blob/main/Claus_SRU_HAZOP_Analysis.pdf) 
 
 ## Part of a portfolio
 
